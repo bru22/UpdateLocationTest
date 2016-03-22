@@ -1,8 +1,8 @@
 package com.logdown.mycodetub.updatelocationtest;
 
+import android.app.Activity;
 import android.location.Location;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.google.android.gms.location.LocationListener;
 
-public class MainActivity extends AppCompatActivity implements LocationListener {
+public class MainActivity extends Activity implements LocationListener {
 
     private static final String TAG = "UpdateLocationTest";
     private GmsLocationUtil mGmsLocationUtil;
