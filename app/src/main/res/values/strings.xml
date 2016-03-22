@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UpdateLocationTest</string>
+    <string name="btn_text_start_update_location">Start Update Location</string>
+    <string name="btn_text_stop_update_location">Stop Update Location</string>
+</resources>
